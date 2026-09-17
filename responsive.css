@@ -1,0 +1,290 @@
+/* =========================================
+   MOBILE RESPONSIVE DESIGN
+   Archana Portfolio
+========================================= */
+
+
+/* ---------- TABLET ---------- */
+
+@media (max-width: 900px) {
+
+    /* NAVBAR */
+
+    nav {
+        padding: 18px 5%;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+
+    /* HERO */
+
+    header {
+        padding: 70px 6%;
+        gap: 50px;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    header h2 {
+        font-size: 24px;
+    }
+
+
+    /* SECTIONS */
+
+    section {
+        margin: 40px 20px;
+        padding: 50px 30px;
+    }
+
+
+    /* ABOUT */
+
+    .about-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* SKILLS */
+
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* PROJECTS */
+
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* CONTACT */
+
+    .founder-contact-content {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+
+    /* ---------- NAVBAR ---------- */
+
+    nav {
+        position: sticky;
+        top: 0;
+
+        width: 100%;
+
+        padding: 18px 22px;
+
+        justify-content: center;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+
+    /* ---------- HERO ---------- */
+
+    header {
+        width: 100%;
+        min-height: auto;
+
+        padding: 75px 22px 60px;
+
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 45px;
+    }
+
+    .hero-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .small-text {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    header h1 {
+        font-size: 42px;
+        line-height: 1.15;
+
+        margin: 18px 0;
+    }
+
+    header h2 {
+        font-size: 21px;
+        line-height: 1.5;
+
+        margin-bottom: 18px;
+    }
+
+    .hero-description {
+        font-size: 15px;
+        line-height: 1.7;
+
+        max-width: 100%;
+    }
+
+
+    /* HERO BUTTONS */
+
+    .hero-buttons {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 12px;
+
+        margin-top: 25px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+
+        padding: 13px 18px;
+    }
+
+
+    /* ---------- HERO CARD ---------- */
+
+    .hero-card {
+        width: 100%;
+        height: auto;
+
+        min-height: 260px;
+    }
+
+    .glow-circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .ai-card {
+        width: 90%;
+
+        padding: 28px 20px;
+
+        border-radius: 18px;
+    }
+
+    .ai-card p {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .tags {
+        gap: 8px;
+    }
+
+    .tags span {
+        font-size: 10px;
+        padding: 7px 10px;
+    }
+
+
+    /* =================================
+       ALL SECTIONS
+    ================================= */
+
+    section {
+        width: calc(100% - 28px);
+
+        margin: 30px auto;
+
+        padding: 55px 20px;
+
+        border-radius: 16px;
+    }
+
+    section h2 {
+        font-size: 29px;
+        line-height: 1.25;
+    }
+
+
+    /* SECTION LABEL */
+
+    .section-label {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+
+    /* =================================
+       ABOUT
+    ================================= */
+
+    .about-text {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .about-cards {
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+
+        margin-top: 28px;
+    }
+
+    .info-card {
+        padding: 22px;
+    }
+
+    .info-card h3 {
+        font-size: 19px;
+    }
+
+    .info-card p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+
+    /* =================================
+       SKILLS
+    ================================= */
+
+    .skills-container {
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+    }
+
+    .skill-card {
+        padding: 23px;
+    }
